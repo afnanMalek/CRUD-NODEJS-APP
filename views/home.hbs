@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CRUD App</h1>
+        <div class="form">
+            <h2>Create</h2>
+            <form id="create-update-form">
+                <input type="text" id="create-update-input" placeholder="Enter item">
+                <button type="submit" id="create-update-button">Create</button>
+            </form>
+        </div>
+        <div class="form">
+            <h2>Search</h2>
+            <form id="search-form">
+                <input type="text" id="search-input" placeholder="Search item">
+                <button type="submit" id="search-button">Search</button>
+            </form>
+        </div>
+        <div class="table">
+            <h2>Data</h2>
+            <table id="data-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Date Added</th>
+                        <th>Delete</th>
+                        <th>Edit</th>
+                        <!-- Add more columns as needed -->
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Data will be added dynamically here -->
+                </tbody>
+            </table>
+
+            <section hidden id="update-row">
+                <label>Name:</label>
+                <input type="text" placeholder="Update From Here" id="update-name-input">
+                <button id="update-row-btn">Update</button>
+            </section>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

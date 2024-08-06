@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.form {
+    margin-bottom: 20px;
+}
+
+.form input[type="text"] {
+    width: calc(100% - 70px);
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.list {
+    margin-bottom: 20px;
+}
+
+.list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.list ul li {
+    margin-bottom: 5px;
+}
+
+.list ul li button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.list ul li button:hover {
+    background-color: #c82333;
+}
+
+/* Existing CSS styles remain the same */
+
+.table {
+    margin-bottom: 20px;
+}
+
+#data-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#data-table th,
+#data-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+#data-table th {
+    background-color: #f2f2f2;
+}
+.no_data{
+    text-align: center;
+}
